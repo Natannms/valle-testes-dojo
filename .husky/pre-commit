@@ -1,0 +1,3 @@
+node scripts/check-console-log.js
+node scripts/check-file-size.js
+npm test
