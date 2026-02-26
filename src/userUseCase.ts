@@ -5,7 +5,7 @@ export class UserUseCase {
 
   createUser(name: string, email: string, password:number){
     //chama a api do asaas e gera subs
-    console.log("TESTES DOS TESTEMUNHOS TESTADOS")
+    console.log("TESTES DOS TESTEMUNHOS TESTADOS 2")
     return this.userRepository.createUser(name, email, password);
   }
 }
